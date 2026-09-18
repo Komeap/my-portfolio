@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ingénieur Informatique</title>
+    <meta name="description" content="Portfolio de Julien Toulzac, ingénieur informatique spécialisé en développement, systèmes embarqués et IoT.">
+    <meta name="theme-color" content="#07111f">
+    <meta property="og:title" content="Portfolio | Julien Toulzac">
+    <meta property="og:description" content="Découvrez les projets, expériences et compétences de Julien Toulzac.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <!-- Lien vers le CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <button class="navbar__toggle" type="button" aria-label="Ouvrir le menu" aria-controls="navbar-menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
+        <ul id="navbar-menu">
+            <li><a class="navbar_btn" href="#accueil">Accueil</a></li>
+            <li><a class="navbar_btn" href="#about">À propos</a></li>
+            <li><a class="navbar_btn" href="#research">Recherche</a></li>
+            <li><a class="navbar_btn" href="#projects">Projets</a></li>
+            <li><a class="navbar_btn" href="#experiences">Expériences</a></li>
+            <li><a class="navbar_btn" href="#skills">Compétences</a></li>
+            <li><a class="navbar_btn" href="#education">Formation</a></li>
+            <li><a class="navbar_btn" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="accueil" class="home">
+            <div class="name">
+                <p class="name__about">Ingénieur informatique passionné par la résolution .............................. Phrase d'accroche !!!</p>
+                <p class="name__subtitle">Ingénieur Informatique</p>
+                <h1 class="name__title">Julien TOULZAC</h1>
+            </div>
+
+            <a class="scroll_btn" href="#about" aria-label="Voir la section À propos">
+                <span aria-hidden="true" class="scroll_btn__icon"></span>
+            </a>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about__intro">
+                <div class="about__profile" aria-hidden="true">
+                    <span>JT</span>
+                </div>
+
+                <div class="about__content">
+                    <p class="about__eyebrow">Ingénieur informatique</p>
+                    <h2>À propos de moi</h2>
+                    <p class="about__text">
+                        Je suis Julien TOULZAC, un ingénieur informatique passionné par la résolution de
+                        problèmes techniques complexes. Ma curiosité m'a amené à explorer des domaines
+                        variés, de l'optimisation logicielle au reverse-engineering, en alliant rigueur
+                        analytique et créativité.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__highlights">
+                <article class="about__highlight">
+                    <span class="about__icon" aria-hidden="true">01</span>
+                    <h3>Résolution de problèmes</h3>
+                    <p>Une approche structurée pour transformer les contraintes en solutions concrètes.</p>
+                </article>
+                <article class="about__highlight">
+                    <span class="about__icon" aria-hidden="true">02</span>
+                    <h3>Systèmes embarqués &amp; BLE</h3>
+                    <p>Une expertise tournée vers l'IoT, le matériel et les communications sans fil.</p>
+                </article>
+                <article class="about__highlight">
+                    <span class="about__icon" aria-hidden="true">03</span>
+                    <h3>Apprentissage continu</h3>
+                    <p>Une veille active pour élargir mes compétences et contribuer à des projets innovants.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="research" class="research">
+            <div class="section-heading">
+                <p class="section-eyebrow">Objectif professionnel</p>
+                <h2>Ce que je recherche</h2>
+            </div>
+            <div class="research__content">
+                <p>
+                    Je souhaite rejoindre une équipe où je peux mettre mes compétences techniques au service
+                    de projets concrets, tout en continuant à progresser au contact de professionnels.
+                </p>
+                <div class="research__items">
+                    <article class="research__item">
+                        <h3>Type d'opportunité</h3>
+                        <p>Stage, alternance ou premier poste en informatique.</p>
+                    </article>
+                    <article class="research__item">
+                        <h3>Domaines</h3>
+                        <p>Développement logiciel, systèmes embarqués, IoT et cybersécurité.</p>
+                    </article>
+                    <article class="research__item">
+                        <h3>Environnement</h3>
+                        <p>Une équipe collaborative, exigeante et orientée vers des résultats utiles.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projets</h2>
+            <div class="projects__carousel" aria-label="Carrousel des projets">
+                <button class="projects__nav projects__nav--previous" type="button" aria-label="Projet précédent">&lt;</button>
+                <div id="projects-container" class="projects__grid"></div>
+                <button class="projects__nav projects__nav--next" type="button" aria-label="Projet suivant">&gt;</button>
+            </div>
+        </section>
+
+        <section id="experiences" class="experiences">
+            <h2>Mes expériences</h2>
+            <div id="experience-container" class="timeline"></div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-heading">
+                <p class="section-eyebrow">Savoir-faire</p>
+                <h2>Compétences</h2>
+            </div>
+            <div id="skills-container" class="skills__grid"></div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="section-heading">
+                <p class="section-eyebrow">Parcours</p>
+                <h2>Formation</h2>
+            </div>
+            <div id="education-container" class="education__list"></div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact__intro">
+                <p class="section-eyebrow">Une idée, un projet ?</p>
+                <h2>Travaillons ensemble</h2>
+                <p>Retrouve-moi ici ou contacte-moi directement pour échanger sur une opportunité.</p>
+            </div>
+            <div id="contact-container" class="contact__links"></div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <span>© <span id="current-year"></span> Julien TOULZAC</span>
+        <a href="#accueil">Retour en haut</a>
+    </footer>
+
+    <!-- Import du JS en tant que module -->
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
