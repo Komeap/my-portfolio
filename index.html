@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Ingénieur Informatique</title>
-    <meta name="description" content="Portfolio de Julien Toulzac, ingénieur informatique spécialisé en développement, systèmes embarqués et IoT.">
+    <title data-i18n="metaTitle">Julien Toulzac | Ingénieur informatique</title>
+    <meta name="description" data-i18n-content="metaDescription" content="Portfolio de Julien Toulzac, ingénieur informatique spécialisé en développement, systèmes embarqués et IoT.">
     <meta name="theme-color" content="#07111f">
     <meta property="og:title" content="Portfolio | Julien Toulzac">
     <meta property="og:description" content="Découvrez les projets, expériences et compétences de Julien Toulzac.">
@@ -14,32 +14,39 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav id="navbar">
-        <button class="navbar__toggle" type="button" aria-label="Ouvrir le menu" aria-controls="navbar-menu" aria-expanded="false">
+    <nav id="navbar" aria-label="Navigation principale">
+        <button class="navbar__toggle" type="button" data-i18n-aria-label="openMenu" aria-label="Ouvrir le menu" aria-controls="navbar-menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </button>
         <ul id="navbar-menu">
-            <li><a class="navbar_btn" href="#accueil">Accueil</a></li>
-            <li><a class="navbar_btn" href="#about">À propos</a></li>
-            <li><a class="navbar_btn" href="#research">Recherche</a></li>
-            <li><a class="navbar_btn" href="#projects">Projets</a></li>
-            <li><a class="navbar_btn" href="#experiences">Expériences</a></li>
-            <li><a class="navbar_btn" href="#skills">Compétences</a></li>
-            <li><a class="navbar_btn" href="#education">Formation</a></li>
-            <li><a class="navbar_btn" href="#contact">Contact</a></li>
+            <li><a class="navbar_btn navbar_btn--brand" href="#accueil" data-i18n-aria-label="homeAria">JT<span>.</span></a></li>
+            <li><a class="navbar_btn" href="#about" data-i18n="navAbout">À propos</a></li>
+            <li><a class="navbar_btn" href="#research" data-i18n="navResearch">Recherche</a></li>
+            <li><a class="navbar_btn" href="#projects" data-i18n="navProjects">Projets</a></li>
+            <li><a class="navbar_btn" href="#experiences" data-i18n="navExperience">Expériences</a></li>
+            <li><a class="navbar_btn" href="#skills" data-i18n="navSkills">Compétences</a></li>
+            <li><a class="navbar_btn" href="#education" data-i18n="navEducation">Formation</a></li>
+            <li><a class="navbar_btn navbar_btn--contact" href="#contact" data-i18n="navContact">Me contacter <span aria-hidden="true">↗</span></a></li>
+            <li><button class="language-toggle" type="button" data-language-toggle aria-label="Switch to English"><span class="language-toggle__active">FR</span><span aria-hidden="true">/</span><span>EN</span></button></li>
         </ul>
     </nav>
     <main>
         <section id="accueil" class="home">
+            <div class="home__grid" aria-hidden="true"></div>
+            <div class="home__meta"><span>PORTFOLIO / 2026</span><span>PARIS · FR</span></div>
             <div class="name">
-                <p class="name__about">Ingénieur informatique passionné par la résolution .............................. Phrase d'accroche !!!</p>
-                <p class="name__subtitle">Ingénieur Informatique</p>
-                <h1 class="name__title">Julien TOULZAC</h1>
+                <p class="name__kicker"><span class="status-dot"></span> <span data-i18n="availability">Disponible pour de nouveaux projets</span></p>
+                <h1 class="name__title"><span>Julien</span><span>TOULZAC<span class="name__accent">.</span></span></h1>
+                <div class="name__bottomline">
+                    <p class="name__about" data-i18n="heroAbout">Je conçois des expériences numériques utiles, lisibles et pensées pour durer.</p>
+                    <p class="name__subtitle" data-i18n="heroSubtitle">Ingénieur informatique<br>software · systèmes · IoT</p>
+                </div>
             </div>
+            <div class="home__footer"><span>Scroll to explore</span><span class="home__line"></span><span>01 — 08</span></div>
 
-            <a class="scroll_btn" href="#about" aria-label="Voir la section À propos">
+            <a class="scroll_btn" href="#about" data-i18n-aria-label="scrollAbout" aria-label="Voir la section À propos">
                 <span aria-hidden="true" class="scroll_btn__icon"></span>
             </a>
         </section>
@@ -51,9 +58,9 @@
                 </div>
 
                 <div class="about__content">
-                    <p class="about__eyebrow">Ingénieur informatique</p>
-                    <h2>À propos de moi</h2>
-                    <p class="about__text">
+                    <p class="about__eyebrow" data-i18n="aboutEyebrow">01 / À propos</p>
+                    <h2 data-i18n="aboutTitle">À propos de moi</h2>
+                    <p class="about__text" data-i18n="aboutText">
                         Je suis Julien TOULZAC, un ingénieur informatique passionné par la résolution de
                         problèmes techniques complexes. Ma curiosité m'a amené à explorer des domaines
                         variés, de l'optimisation logicielle au reverse-engineering, en alliant rigueur
@@ -65,84 +72,85 @@
             <div class="about__highlights">
                 <article class="about__highlight">
                     <span class="about__icon" aria-hidden="true">01</span>
-                    <h3>Résolution de problèmes</h3>
-                    <p>Une approche structurée pour transformer les contraintes en solutions concrètes.</p>
+                    <h3 data-i18n="highlightProblemTitle">Résolution de problèmes</h3>
+                    <p data-i18n="highlightProblemText">Une approche structurée pour transformer les contraintes en solutions concrètes.</p>
                 </article>
                 <article class="about__highlight">
                     <span class="about__icon" aria-hidden="true">02</span>
-                    <h3>Systèmes embarqués &amp; BLE</h3>
-                    <p>Une expertise tournée vers l'IoT, le matériel et les communications sans fil.</p>
+                    <h3 data-i18n="highlightEmbeddedTitle">Systèmes embarqués &amp; BLE</h3>
+                    <p data-i18n="highlightEmbeddedText">Une expertise tournée vers l'IoT, le matériel et les communications sans fil.</p>
                 </article>
                 <article class="about__highlight">
                     <span class="about__icon" aria-hidden="true">03</span>
-                    <h3>Apprentissage continu</h3>
-                    <p>Une veille active pour élargir mes compétences et contribuer à des projets innovants.</p>
+                    <h3 data-i18n="highlightLearningTitle">Apprentissage continu</h3>
+                    <p data-i18n="highlightLearningText">Une veille active pour élargir mes compétences et contribuer à des projets innovants.</p>
                 </article>
             </div>
         </section>
 
         <section id="research" class="research">
             <div class="section-heading">
-                <p class="section-eyebrow">Objectif professionnel</p>
-                <h2>Ce que je recherche</h2>
+                <p class="section-eyebrow" data-i18n="researchEyebrow">Objectif professionnel</p>
+                <h2 data-i18n="researchTitle">Ce que je recherche</h2>
             </div>
             <div class="research__content">
                 <p>
-                    Je souhaite rejoindre une équipe où je peux mettre mes compétences techniques au service
+                    <span data-i18n="researchText">Je souhaite rejoindre une équipe où je peux mettre mes compétences techniques au service
                     de projets concrets, tout en continuant à progresser au contact de professionnels.
+                    </span>
                 </p>
                 <div class="research__items">
                     <article class="research__item">
-                        <h3>Type d'opportunité</h3>
-                        <p>Stage, alternance ou premier poste en informatique.</p>
+                        <h3 data-i18n="researchTypeTitle">Type d'opportunité</h3>
+                        <p data-i18n="researchTypeText">Stage, alternance ou premier poste en informatique.</p>
                     </article>
                     <article class="research__item">
-                        <h3>Domaines</h3>
-                        <p>Développement logiciel, systèmes embarqués, IoT et cybersécurité.</p>
+                        <h3 data-i18n="researchFieldsTitle">Domaines</h3>
+                        <p data-i18n="researchFieldsText">Développement logiciel, systèmes embarqués, IoT et cybersécurité.</p>
                     </article>
                     <article class="research__item">
-                        <h3>Environnement</h3>
-                        <p>Une équipe collaborative, exigeante et orientée vers des résultats utiles.</p>
+                        <h3 data-i18n="researchEnvironmentTitle">Environnement</h3>
+                        <p data-i18n="researchEnvironmentText">Une équipe collaborative, exigeante et orientée vers des résultats utiles.</p>
                     </article>
                 </div>
             </div>
         </section>
 
         <section id="projects" class="projects">
-            <h2>Projets</h2>
-            <div class="projects__carousel" aria-label="Carrousel des projets">
-                <button class="projects__nav projects__nav--previous" type="button" aria-label="Projet précédent">&lt;</button>
+            <div class="section-heading section-heading--dark"><p class="section-eyebrow" data-i18n="projectsEyebrow">02 / Sélection</p><h2 data-i18n="projectsTitle">Projets choisis</h2></div>
+            <div class="projects__carousel" data-i18n-aria-label="projectsCarouselLabel" aria-label="Carrousel des projets">
+                <button class="projects__nav projects__nav--previous" type="button" data-i18n-aria-label="previousProject" aria-label="Projet précédent">&lt;</button>
                 <div id="projects-container" class="projects__grid"></div>
-                <button class="projects__nav projects__nav--next" type="button" aria-label="Projet suivant">&gt;</button>
+                <button class="projects__nav projects__nav--next" type="button" data-i18n-aria-label="nextProject" aria-label="Projet suivant">&gt;</button>
             </div>
         </section>
 
         <section id="experiences" class="experiences">
-            <h2>Mes expériences</h2>
+            <div class="section-heading section-heading--dark"><p class="section-eyebrow" data-i18n="experienceEyebrow">03 / Parcours</p><h2 data-i18n="experienceTitle">Expériences</h2></div>
             <div id="experience-container" class="timeline"></div>
         </section>
 
         <section id="skills" class="skills">
             <div class="section-heading">
-                <p class="section-eyebrow">Savoir-faire</p>
-                <h2>Compétences</h2>
+                <p class="section-eyebrow" data-i18n="skillsEyebrow">Savoir-faire</p>
+                <h2 data-i18n="skillsTitle">Compétences</h2>
             </div>
             <div id="skills-container" class="skills__grid"></div>
         </section>
 
         <section id="education" class="education">
             <div class="section-heading">
-                <p class="section-eyebrow">Parcours</p>
-                <h2>Formation</h2>
+                <p class="section-eyebrow" data-i18n="educationEyebrow">Parcours</p>
+                <h2 data-i18n="educationTitle">Formation</h2>
             </div>
             <div id="education-container" class="education__list"></div>
         </section>
 
         <section id="contact" class="contact">
             <div class="contact__intro">
-                <p class="section-eyebrow">Une idée, un projet ?</p>
-                <h2>Travaillons ensemble</h2>
-                <p>Retrouve-moi ici ou contacte-moi directement pour échanger sur une opportunité.</p>
+                <p class="section-eyebrow" data-i18n="contactEyebrow">Une idée, un projet ?</p>
+                <h2 data-i18n="contactTitle">Travaillons ensemble</h2>
+                <p data-i18n="contactText">Retrouve-moi ici ou contacte-moi directement pour échanger sur une opportunité.</p>
             </div>
             <div id="contact-container" class="contact__links"></div>
         </section>
@@ -151,7 +159,7 @@
 
     <footer class="site-footer">
         <span>© <span id="current-year"></span> Julien TOULZAC</span>
-        <a href="#accueil">Retour en haut</a>
+        <a href="#accueil" data-i18n="backToTop">Retour en haut</a>
     </footer>
 
     <!-- Import du JS en tant que module -->
