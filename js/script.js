@@ -6,26 +6,26 @@ const translations = {
         metaTitle: 'Julien Toulzac | Ingénieur informatique',
         metaDescription: "Portfolio de Julien Toulzac, ingénieur informatique spécialisé en développement, systèmes embarqués et IoT.",
         openMenu: 'Ouvrir le menu', closeMenu: 'Fermer le menu', homeAria: "Retour à l'accueil",
-        navAbout: 'À propos', navResearch: 'Recherche', navProjects: 'Projets', navExperience: 'Expériences', navSkills: 'Compétences', navEducation: 'Formation', navContact: 'Me contacter <span aria-hidden="true">↗</span>',
-        availability: 'Disponible pour de nouveaux projets', heroAbout: 'Je conçois des expériences numériques utiles, lisibles et pensées pour durer.', heroSubtitle: 'Ingénieur informatique<br>software · systèmes · IoT', scrollAbout: 'Voir la section À propos',
-        aboutEyebrow: '01 / À propos', aboutTitle: 'À propos de moi', aboutText: "Je suis Julien TOULZAC, un ingénieur informatique passionné par la résolution de problèmes techniques complexes. Ma curiosité m'a amené à explorer des domaines variés, de l'optimisation logicielle au reverse-engineering, en alliant rigueur analytique et créativité.",
-        highlightProblemTitle: 'Résolution de problèmes', highlightProblemText: 'Une approche structurée pour transformer les contraintes en solutions concrètes.', highlightEmbeddedTitle: 'Systèmes embarqués & BLE', highlightEmbeddedText: "Une expertise tournée vers l'IoT, le matériel et les communications sans fil.", highlightLearningTitle: 'Apprentissage continu', highlightLearningText: 'Une veille active pour élargir mes compétences et contribuer à des projets innovants.',
+        navAbout: 'À propos', navProjects: 'Projets', navExperience: 'Expériences', navSkills: 'Connaissances', navEducation: 'Formation', navContact: 'Me contacter <span aria-hidden="true">↗</span>',
+        availability: 'Disponible pour de nouveaux projets', heroAbout: 'Concepteur et développeur de solutions utiles, lisibles et durables.', heroSubtitle: 'Ingénieur informatique', scrollAbout: 'Voir la section À propos',
+        aboutEyebrow: '01 / À propos', aboutTitle: 'À propos de moi', aboutText: "Je suis autonome et passionné par l'informatique. Curieux, j'apprécie énormément apprendre de nouvelles choses. Je souhaite devenir ingénieur en cybersécurité ou en développement d'IA.",
+        highlightTechTitle: 'Informatique & cybersécurité', highlightTechText: "J'aime programmer et découvrir de nouvelles technologies, notamment dans le développement de jeux vidéo. Je m'intéresse aussi à la cybersécurité et au hacking éthique pour mieux comprendre les systèmes et contribuer à les sécuriser.", highlightHobbiesTitle: 'Mes hobbies', highlightHobbiesText: 'Jeu vidéo, programmation, théâtre, guitare, escalade et baby-foot.', highlightResearchTitle: 'Ce que je recherche', highlightResearchText: "Tout type d'expérience stimulante où je peux apprendre de nouvelles choses, développer mes compétences et continuer à évoluer.",
         researchEyebrow: 'Objectif professionnel', researchTitle: 'Ce que je recherche', researchText: 'Je souhaite rejoindre une équipe où je peux mettre mes compétences techniques au service de projets concrets, tout en continuant à progresser au contact de professionnels.', researchTypeTitle: "Type d'opportunité", researchTypeText: 'Stage, alternance ou premier poste en informatique.', researchFieldsTitle: 'Domaines', researchFieldsText: 'Développement logiciel, systèmes embarqués, IoT et cybersécurité.', researchEnvironmentTitle: 'Environnement', researchEnvironmentText: 'Une équipe collaborative, exigeante et orientée vers des résultats utiles.',
-        projectsEyebrow: '02 / Sélection', projectsTitle: 'Projets choisis', projectsCarouselLabel: 'Carrousel des projets', previousProject: 'Projet précédent', nextProject: 'Projet suivant',
-        experienceEyebrow: '03 / Parcours', experienceTitle: 'Expériences', skillsEyebrow: 'Savoir-faire', skillsTitle: 'Compétences', educationEyebrow: 'Parcours', educationTitle: 'Formation', contactEyebrow: 'Une idée, un projet ?', contactTitle: 'Travaillons ensemble', contactText: 'Retrouve-moi ici ou contacte-moi directement pour échanger sur une opportunité.', backToTop: 'Retour en haut',
+        projectsEyebrow: '02 / Sélection', projectsTitle: 'Projets', projectsCarouselLabel: 'Carrousel des projets', previousProject: 'Projet précédent', nextProject: 'Projet suivant', viewRepo: 'Voir le repo', galleryHint: 'Glisser pour voir les écrans', projectGallery: 'Captures de l’application',
+        experienceEyebrow: '03 / Parcours', experienceTitle: 'Expériences', showOlderExperiences: 'Voir les expériences précédentes', hideOlderExperiences: 'Masquer les expériences précédentes', skillsEyebrow: 'Savoir-faire', skillsTitle: 'Connaissances', educationEyebrow: 'Parcours', educationTitle: 'Formation', contactEyebrow: 'Une idée, un projet ?', contactTitle: 'Travaillons ensemble', contactText: 'Retrouve-moi ici ou contacte-moi directement pour échanger sur une opportunité.', backToTop: 'Retour en haut',
         selectedProject: 'Projet sélectionné', more: 'Voir plus ...', close: 'Fermer', email: 'E-mail', code: 'Code', professionalNetwork: 'Réseau professionnel', document: 'Document', downloadCv: 'Télécharger mon CV'
     },
     en: {
         metaTitle: 'Julien Toulzac | Software Engineer',
         metaDescription: 'Portfolio of Julien Toulzac, software engineer focused on development, embedded systems and IoT.',
         openMenu: 'Open menu', closeMenu: 'Close menu', homeAria: 'Back to home',
-        navAbout: 'About', navResearch: 'Focus', navProjects: 'Projects', navExperience: 'Experience', navSkills: 'Skills', navEducation: 'Education', navContact: 'Get in touch <span aria-hidden="true">↗</span>',
-        availability: 'Available for new projects', heroAbout: 'I design useful, readable digital experiences built to last.', heroSubtitle: 'Software engineer<br>software · systems · IoT', scrollAbout: 'Go to the About section',
-        aboutEyebrow: '01 / About', aboutTitle: 'About me', aboutText: 'I am Julien TOULZAC, a software engineer passionate about solving complex technical problems. Curiosity has led me across software optimisation, reverse engineering and creative, rigorous problem-solving.',
-        highlightProblemTitle: 'Problem solving', highlightProblemText: 'A structured approach to turn constraints into concrete solutions.', highlightEmbeddedTitle: 'Embedded systems & BLE', highlightEmbeddedText: 'A hands-on focus on IoT, hardware and wireless communications.', highlightLearningTitle: 'Continuous learning', highlightLearningText: 'An active learning mindset to grow my skills and contribute to ambitious projects.',
+        navAbout: 'About', navProjects: 'Projects', navExperience: 'Experience', navSkills: 'Knowledge', navEducation: 'Education', navContact: 'Get in touch <span aria-hidden="true">↗</span>',
+        availability: 'Available for new projects', heroAbout: 'Designer and developer of useful, readable and durable solutions.', heroSubtitle: 'Software engineer', scrollAbout: 'Go to the About section',
+        aboutEyebrow: '01 / About', aboutTitle: 'About me', aboutText: 'I am independent and passionate about computer science. Curious by nature, I really enjoy learning new things. I want to become a cybersecurity engineer or an AI developer.',
+        highlightTechTitle: 'Computer science & cybersecurity', highlightTechText: 'I enjoy programming and discovering new technologies, especially video game development. I am also interested in cybersecurity and ethical hacking to better understand systems and help secure them.', highlightHobbiesTitle: 'My hobbies', highlightHobbiesText: 'Video games, programming, theatre, guitar, climbing and table football.', highlightResearchTitle: 'What I am looking for', highlightResearchText: 'Any stimulating experience where I can learn new things, develop my skills and continue to grow.',
         researchEyebrow: 'Professional focus', researchTitle: 'What I am looking for', researchText: 'I am looking to join a team where I can apply my technical skills to meaningful projects while continuing to grow alongside experienced professionals.', researchTypeTitle: 'Opportunity', researchTypeText: 'Internship, apprenticeship or first software engineering role.', researchFieldsTitle: 'Fields', researchFieldsText: 'Software development, embedded systems, IoT and cybersecurity.', researchEnvironmentTitle: 'Environment', researchEnvironmentText: 'A collaborative, demanding team focused on useful outcomes.',
-        projectsEyebrow: '02 / Selected work', projectsTitle: 'Selected projects', projectsCarouselLabel: 'Project carousel', previousProject: 'Previous project', nextProject: 'Next project',
-        experienceEyebrow: '03 / Background', experienceTitle: 'Experience', skillsEyebrow: 'Toolkit', skillsTitle: 'Skills', educationEyebrow: 'Background', educationTitle: 'Education', contactEyebrow: 'Have an idea?', contactTitle: "Let's work together", contactText: 'Find me here or get in touch directly to discuss an opportunity.', backToTop: 'Back to top',
+        projectsEyebrow: '02 / Selected work', projectsTitle: 'Projects', projectsCarouselLabel: 'Project carousel', previousProject: 'Previous project', nextProject: 'Next project', viewRepo: 'View repository', galleryHint: 'Swipe to explore the screens', projectGallery: 'Application screenshots',
+        experienceEyebrow: '03 / Background', experienceTitle: 'Experience', showOlderExperiences: 'Show previous experiences', hideOlderExperiences: 'Hide previous experiences', skillsEyebrow: 'Toolkit', skillsTitle: 'Knowledge', educationEyebrow: 'Background', educationTitle: 'Education', contactEyebrow: 'Have an idea?', contactTitle: "Let's work together", contactText: 'Find me here or get in touch directly to discuss an opportunity.', backToTop: 'Back to top',
         selectedProject: 'Selected project', more: 'View details ...', close: 'Close', email: 'Email', code: 'Code', professionalNetwork: 'Professional network', document: 'Document', downloadCv: 'Download my CV'
     }
 };
@@ -103,14 +103,14 @@ if (projectsContainer) {
     const cardsHTML = projects.map(project => {
         const tagsHTML = project.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
         const projectLinksHTML = [
-            project.github ? `<a href="${project.github}" target="_blank" rel="noreferrer">GitHub</a>` : '',
+            project.github ? `<a href="${project.github}" target="_blank" rel="noreferrer">🔗 <span>${text('viewRepo')}</span></a>` : '',
             project.demo ? `<a href="${project.demo}" target="_blank" rel="noreferrer">Démo</a>` : ''
         ].filter(Boolean).join('');
 
         return `
             <article class="projet__card" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="project-dialog-${project.id}" data-project-id="${project.id}">
             <h3>${localized(project, 'title')}</h3>
-            <p>${localized(project, 'description')}</p>
+            <p>${localized(project, 'summary') || localized(project, 'description')}</p>
             <div class="tags-container">
                     ${tagsHTML}
             </div>
@@ -121,13 +121,19 @@ if (projectsContainer) {
     }).join('');
     const dialogsHTML = projects.map(project => {
         const tagsHTML = project.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+        const galleryImages = project.gallery?.length ? project.gallery : (project.img_link ? [project.img_link] : []);
+        const galleryHTML = galleryImages.length
+            ? `<div class="project-gallery" aria-label="${text('projectGallery')}">
+                <div class="project-gallery__track">
+                    ${galleryImages.map((image, index) => `<button class="project-gallery__item" type="button" aria-label="${text('projectGallery')} ${index + 1}"><img src="${image}" alt="${localized(project, 'title')} - écran ${index + 1}" loading="lazy"></button>`).join('')}
+                </div>
+                <p class="project-gallery__hint">${text('galleryHint')}</p>
+            </div>`
+            : '';
         const projectLinksHTML = [
-            project.github ? `<a href="${project.github}" target="_blank" rel="noreferrer">GitHub</a>` : '',
+            project.github ? `<a href="${project.github}" target="_blank" rel="noreferrer">🔗 <span>${text('viewRepo')}</span></a>` : '',
             project.demo ? `<a href="${project.demo}" target="_blank" rel="noreferrer">Démo</a>` : ''
         ].filter(Boolean).join('');
-        const imageHTML = project.img_link
-            ? `<img class="img_projet" src="${project.img_link}" alt="Illustration du projet ${project.title}"/>`
-            : '';
 
         return `
             <dialog class="projet__dialog" id="project-dialog-${project.id}" aria-modal="true" aria-labelledby="project-dialog-${project.id}-title">
@@ -142,13 +148,20 @@ if (projectsContainer) {
                         <div class="tags-container">${tagsHTML}</div>
                         <div class="project__links">${projectLinksHTML}</div>
                     </div>
-                    ${imageHTML}
+                    ${galleryHTML}
                 </div>
             </dialog>
         `;
     }).join('');
     projectsContainer.innerHTML = `${cardsHTML}${dialogsHTML}`;
 
+    document.querySelectorAll('.project-gallery__item').forEach(imageButton => {
+        imageButton.addEventListener('click', event => {
+            event.stopPropagation();
+            imageButton.classList.toggle('is-zoomed');
+            imageButton.setAttribute('aria-pressed', String(imageButton.classList.contains('is-zoomed')));
+        });
+    });
 
     // Script qui observe l'apparition des project cards
     const projectCards = document.querySelectorAll('.projet__card');
@@ -267,11 +280,11 @@ projectCards.forEach(card => {
 
 const experienceContainer = document.getElementById('experience-container');
 if (experienceContainer) {
-    const experiencesHTML = experiences.map(exp => {
+    const experiencesHTML = experiences.map((exp, index) => {
     const knowledgeHTML = exp.learned_comp.map(knowledge => `<span class="knowledge">${knowledge}</span>`).join('');
 
         return `
-            <div class="timeline-item">
+            <div class="timeline-item${index >= 5 ? ' timeline-item--hidden' : ''}">
             <div class="timeline-dot"></div>
             <article class="experience__card">
             <h3>${localized(exp, 'experience_name')}</h3>
@@ -285,6 +298,19 @@ if (experienceContainer) {
         `;
     }).join('');
     experienceContainer.innerHTML = experiencesHTML;
+
+    const experienceToggle = document.querySelector('#experience-toggle');
+    if (experienceToggle && experiences.length > 5) {
+        const toggleLabel = experienceToggle.querySelector('[data-i18n]');
+        const toggleIcon = experienceToggle.querySelector('.experience-toggle__icon');
+
+        experienceToggle.addEventListener('click', () => {
+            const isExpanded = experienceContainer.classList.toggle('is-expanded');
+            experienceToggle.setAttribute('aria-expanded', String(isExpanded));
+            toggleIcon.textContent = isExpanded ? '−' : '+';
+            toggleLabel.textContent = text(isExpanded ? 'hideOlderExperiences' : 'showOlderExperiences');
+        });
+    }
 }
 
 const skillsContainer = document.getElementById('skills-container');
@@ -413,9 +439,23 @@ function updateNavbarVisibility() {
 updateSectionTitles();
 updateScrollButton();
 updateNavbarVisibility();
-window.addEventListener('scroll', updateSectionTitles, { passive: true });
-window.addEventListener('scroll', updateScrollButton, { passive: true });
-window.addEventListener('scroll', updateNavbarVisibility, { passive: true });
+
+let scrollFramePending = false;
+function updateOnScroll() {
+    if (scrollFramePending) {
+        return;
+    }
+
+    scrollFramePending = true;
+    requestAnimationFrame(() => {
+        updateSectionTitles();
+        updateScrollButton();
+        updateNavbarVisibility();
+        scrollFramePending = false;
+    });
+}
+
+window.addEventListener('scroll', updateOnScroll, { passive: true });
 window.addEventListener('resize', updateSectionTitles);
 
 /* ############################################
