@@ -3,7 +3,7 @@
 export const profile = {
     email: "julien.toulzac@gmail.com",
     github: "https://github.com/Komeap",
-    linkedin: "www.linkedin.com/in/julien-toulzac-b84997368",
+    linkedin: "https://www.linkedin.com/in/julien-toulzac-b84997368",
     cv: "assets/CV-Julien-Toulzac.pdf",
     location: "Tours, France"
 };
